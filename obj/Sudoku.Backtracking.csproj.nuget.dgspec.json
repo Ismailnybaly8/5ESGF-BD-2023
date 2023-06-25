@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ismail\\Documents\\5ESGF-BD-2023\\Sudoku.Backtracking\\Sudoku.Backtracking.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ismail\\Documents\\5ESGF-BD-2023\\Sudoku.Backtracking\\Sudoku.Backtracking.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ismail\\Documents\\5ESGF-BD-2023\\Sudoku.Backtracking\\Sudoku.Backtracking.csproj",
+        "projectName": "Sudoku.Backtracking",
+        "projectPath": "C:\\Users\\ismail\\Documents\\5ESGF-BD-2023\\Sudoku.Backtracking\\Sudoku.Backtracking.csproj",
+        "packagesPath": "C:\\Users\\ismail\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ismail\\Documents\\5ESGF-BD-2023\\Sudoku.Backtracking\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ismail\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "netcoreapp5.0",
+            "projectReferences": {
+              "C:\\Users\\ismail\\Documents\\5ESGF-BD-2023\\Sudoku.Shared\\Sudoku.Shared.csproj": {
+                "projectPath": "C:\\Users\\ismail\\Documents\\5ESGF-BD-2023\\Sudoku.Shared\\Sudoku.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "netcoreapp5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ismail\\Documents\\5ESGF-BD-2023\\Sudoku.Shared\\Sudoku.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ismail\\Documents\\5ESGF-BD-2023\\Sudoku.Shared\\Sudoku.Shared.csproj",
+        "projectName": "Sudoku.Shared",
+        "projectPath": "C:\\Users\\ismail\\Documents\\5ESGF-BD-2023\\Sudoku.Shared\\Sudoku.Shared.csproj",
+        "packagesPath": "C:\\Users\\ismail\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ismail\\Documents\\5ESGF-BD-2023\\Sudoku.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ismail\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Python.Deployment": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "System.Runtime.Loader": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "pythonnet": {
+              "target": "Package",
+              "version": "[3.1.0-preview2023-02-03, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
